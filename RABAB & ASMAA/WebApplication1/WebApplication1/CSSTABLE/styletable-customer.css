@@ -1,0 +1,43 @@
+﻿.GridView-customer {
+    width: 70%;
+    height: 90px;
+    text-align: center;
+    /* margin-right: 130px; */
+    border: none;
+    margin-left: 20%;
+
+}
+.GridView-customer tbody tr th{
+    background-color: #4C71DE !important;
+    color:white;
+    border:none;
+    padding:8px;
+}
+.GridView-customer tbody tr td{
+    border:none;
+    padding:13px;
+}
+.GridView-customer tbody tr:nth-child(odd){
+    background-color:#eee ;
+    padding-top: 20px;
+   /* border-bottom:1px solid rgba(70, 133, 187, 0.25);*/
+
+}
+.GridView-customer tbody tr:nth-child(even){
+    background-color: white;
+    padding-top: 30px;
+   /* border-bottom:1px solid rgba(70, 133, 187, 0.25);*/
+}
+html{
+    /*background-color:#F8F9FA;*/
+}
+.iconedit{
+    padding-left:20px;
+}
+.btnsearchcustomer{
+    width:inherit;
+}
+.divgridcustomer{
+     background-color:#F8F9FA;
+}
+

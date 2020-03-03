@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start login */
+#login{
+    background-image: url(../img/img.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   /* background-color: rgba(43, 40, 40, 0.8);
+    height: 535px;
+    padding: 40px;*/
+}
+.log{
+    height: 535px;
+    padding: 40px; 
+    /*height: 150px;
+    margin-top: 9px;*/
+}
+.login{
+    
+    width: 500px;
+    background-color:white;
+    height: 500px;
+    margin: auto;  
+    margin-top: 9px;
+}
+.head{
+    background-color: #4d4748;
+    padding: 6px;
+}
+.h1{
+    margin-left:109px;
+    padding-top:6px;
+    color: #00AFF0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+.nurwa{
+    margin-left: 13px;
+    display: inline-block;
+    margin-top: -69px;
+}
+.un{
+    width: 70px;
+    height: 70px;
+}
+.input{
+    margin-left: 30px; 
+    width: 350px;
+    margin: 30px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 6px;
+    padding-left: 10px; 
+}
+.input:focus{
+    border:  2px solid  rgb(146, 181, 247);
+}
+.btnlogin{
+    /*margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 350px;
+    height: 40px;*/
+    background-color: #4d4748;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 350px;
+    margin: 30px 30px 30px 95px;
+    height: 50px;
+    padding-left: 10px; 
+    border: 2px solid rgb(94, 70, 72) ;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btnlogin:hover{
+    background-color:#00AFF0;
+
+}
+
+.ee{
+    margin-left: 34px; 
+}
+.student{
+    font-size: 33px;
+    margin-left: 30px;
+    color: #212121;
+}
+.mas1{
+    font-size: 16px;
+    text-align: center;
+    color: #212121;
+    margin-left: 210px;
+    font-weight: bold;
+}
+/* end Login */
+
+/* start slid master */
+.slid{
+    background-color:#4d4748 ; 
+    height: 125px;
+    border: 1px solid rgb(146, 181, 247);
+}
+.par{
+    color: rgb(146, 181, 247);
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    float: right;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.imag{
+    margin: 15px 15px 21px 100px;
+}
+#leftside{
+  
+    background-color:#4d4748;
+    float: left;
+    width: 20%;
+    height: 800px;
+    border: 1px solid rgb(60, 118, 226);
+}
+.td{
+    font-size: 20px;
+    margin: 20px;
+    padding:20px;
+   
+}
+.aaa{
+    color: white;
+    text-decoration: none;  
+    font-size: 20px;
+    display:inline-block; 
+}
+.td:hover{
+    background-color: rgb(146, 181, 247);
+    border-radius: 5px;
+   width: 100%;
+}
+td{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+#rightside{
+    margin: 50px;
+}
+
+
+/* end master */
+
+/* start grid view */ /* All Student */
+.welcom{
+    color: black;
+   text-align: left;
+   margin-top: 40px;
+   font-family: cursive;
+   font-size: 30px;
+   margin-left: 12px;
+}
+/* end grid view */
+#rightside{
+    float: right;
+    width: 72%;
+}
+.leble{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.programid, .level{
+    display: block;
+    margin: 10px;
+}
+.btn{
+    background-color:#00AFF0;
+    width:150px;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px; 
+    margin-left: 148px;
+}
+.vvv{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+}
+.inputlevel{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px; 
+    margin-left: 60px;
+}
+.Add{
+    font-size: 20px;
+    margin-left: 600px;
+}
+.sort{
+    margin-left: 50px; 
+}
+    
+

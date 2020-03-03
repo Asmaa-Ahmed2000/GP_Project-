@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Profilemain{
+/*display: flex;*/
+padding-top: 5%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+text-align: center;
+}
+.icons{
+   font-size: 70px;
+}
+.in{
+    width:750px;
+    height:40px;
+    margin-top: 20px;
+    padding: 10px;
+    /* margin-left: 300px;  */
+}
+.btn button{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    background-color:#4e73df;
+    color: white;
+    font-size: large;
+    border:none;
+}
+.btn button:hover{
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+.icondiv{
+    margin-top: 20px;
+    border:1px black;
+    border-radius: 10%; 
+    text-align: center;
+}
+.Edit-admin {
+    background-color: #4C71DE;
+    border: none; 
+    outline: none;
+    margin-top: 5%;
+}
+/*.ADMIN_PR {
+    margin-top: 
+}*/

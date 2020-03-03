@@ -1,0 +1,196 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* .navtoggle{
+        width: 100%;
+    } */
+    /* .nav-bar{
+        float: left;
+        width: 40%;
+    }
+    .page-div{
+        float: right;
+        width: 60%;
+    } */
+    .bradnonetwo{
+        display: none;
+    }
+    .Admin-Names{
+        color: #eee;
+    }
+    .smail1{
+        margin-left: 10%;
+    }
+    /* .divprogress{
+        display: flex;
+        flex-direction: column;
+       
+    } */
+    .card{
+        margin-top: 5%;
+      
+         /* width: 48%; */
+      }
+      .chartline{
+        width: 30% !important;
+     
+        }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* .navtoggle{
+        width: 100%;
+    } */
+    /* .nav-bar{
+        float: left;
+        width: 40%;
+    }
+    .page-div{
+        float: right;
+        width: 60%;
+    } */
+    .bradnonetwo{
+        display: none;
+    }
+    .Admin-Names{
+        color: #eee;
+    }
+    .smail1{
+        margin-left: 15%;
+    }
+   
+    /* .divprogress{
+        display: flex;
+        flex-direction: column;
+       
+    } */
+    .card{
+        margin-top: 5%;
+   
+         /* width: 48%; */
+      }
+      .chartline{
+        width: 40% !important;
+        }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* .navtoggle{
+        width: 100%;
+    } */
+    /* .nav-bar{
+        float: left;
+        width: 40%;
+    }
+    .page-div{
+        float: right;
+        width: 60%;
+    } */
+    .bradnonetwo{
+        display: none;
+    }
+    .Admin-Names{
+        color: #eee;
+    }
+    .smail1{
+        margin-left: 2%;
+    }
+    .divprogress{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .card{
+        margin-top: 5%;
+    
+         /* width: 48%; */
+      }
+      .chartline{
+        width: 50% !important;
+        }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navtoggle{
+        float: left;
+        width: 13%;
+    }
+    .bradnone{
+        display: none;
+    }
+    .navadmintwo{
+        float: right;
+        width: 87%;
+    }
+    .name{
+        margin-left: 0px;
+    }
+    .name1{
+        margin-left: 0px;
+        /* background-color: 
+        red; */
+    }
+    .Admin-Names{
+        color: #4C71DE;}
+        /* .divprogress{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           
+        } */
+        .card{
+            margin-top: 5%;
+            margin-left: 4%;
+             /* width: 48%; */
+          }
+          .navbarside{
+            height: 900px;
+          } 
+          .chartline{
+            width: 70% !important;
+         
+            }
+            .mainns{
+                max-width: 750px;
+            }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navtoggle{
+        float: left;
+        width: 13%;
+    }
+    .bradnone{
+        display: none;
+    }
+    .navadmintwo{
+        float: right;
+        width: 87%;
+    }
+    .Admin-Names{
+        color: #4C71DE;}
+        /* .divprogress{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        } */
+        .card{
+          margin-top: 5%;
+          margin-left: 4%;
+           /* width: 48%; */
+        }
+        .navbarside{
+          height: 1050px;
+        } 
+.chartline{
+width: 100% !important;
+
+}
+.mainns{
+    max-width: 750px;
+}
+ }
+ 

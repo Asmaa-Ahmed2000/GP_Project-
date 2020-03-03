@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+
+}
+.Price{
+    float: left;
+    padding-right: 15px;
+}
+
+.BTNOK{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #5146AF;
+    color: #eee;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 3px 3px 8px rgb(131, 130, 130);
+}
+.Categories, .search{
+    box-shadow: 3px 3px 8px rgb(131, 130, 130);
+}
+
+.fa-sort-amount-up:before {
+    content: "\f161";
+    padding-right: 20%;
+}
+.fa-sort-amount-down:before {
+    content: "\f160";
+    padding-right: 20%;
+}
+.divimage, .imgDiv, .giftName, .Discription, .GiftPrice, .GiftCategory, .Edits, .Updates, .delete{
+    border: 1px solid gray;
+}
+.NameGift , .txteara, .PriceGift , .CategoryGift {
+    padding-left: 3%;
+}
+.txteara{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+.Updates,.delete{
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+.pen {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pens{
+    padding: 10%;
+}
+.Edits{
+    border-top: none;
+}
+.sort{
+    float: right;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+.dropdown{
+    text-decoration: none;
+}
+.Firstdiv{
+    margin-top: 5%;
+}
+.HeadFilter{
+    float: left;
+}

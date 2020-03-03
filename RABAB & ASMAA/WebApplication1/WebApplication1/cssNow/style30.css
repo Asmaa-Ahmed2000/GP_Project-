@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Gifttt{     
+    margin-right: -5px;
+    margin-left: -5px;
+    
+}
+.allProduct{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    
+}
+.AP{
+    color: #C3404E;
+    font-family: 'Montserrat', sans-serif;
+   padding: 10px;
+}
+.AP:hover{
+color: #010131;
+}
+.Giftty1{
+  
+    margin-right:15px;
+}
+.card:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.14);
+}
+.card{
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: #333;
+    background: #fff;
+    width: 100%;
+}
+.Pic{
+    position: relative;
+    width: 100%;
+}
+.card-Pic{
+    border-radius: 3px;
+    margin-top: -20px;
+    padding: 15px;
+    
+}
+.B1 {
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+}
+.details{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.overlay {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+    background-color: rgba(44, 44, 44, 0.801);
+  }
+  .card:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+.price{
+    margin-top: 3px;
+    color: #C3404E;
+    font-weight: bold;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.footer-Deteails{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px; 
+    padding-bottom: 2%;
+}
+
+.start1{
+   
+    font-size: 20px;
+    color: #febd29;
+   
+}
+#myBtn { 
+    bottom: 20px;
+    right: 18.5%;
+    top: 100%;
+    margin-left: 45%;
+    max-width: 120px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .15px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+.top{
+    text-decoration: none;
+}
+#myBtn:hover {
+    background-color: #C3404E;
+}
+.NameGIFT{
+    font-weight:bold;
+}
+.Updates, .delete {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: none;
+}
+.earaa {
+    border: none;
+    width: 270px;
+}
+.MAX, .Min{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+@media (min-width: 992px) {
+    
+
+    .adds {
+        font-size: 20px;
+        margin-left: 15%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .adds {
+        margin-left: 15%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+}

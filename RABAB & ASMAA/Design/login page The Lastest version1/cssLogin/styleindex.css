@@ -1,0 +1,103 @@
+.navbar{
+    background-color: #000;
+}
+.logo{
+    height: 60px;
+    width:60px;
+}
+.nav-link{
+    color:#FEECE0;
+
+}
+.nav-link:hover{
+    color:#E9C2B3; 
+}
+.btn{
+    color:#E9C2B3;
+    border:1px  solid #E9C2B3;
+}
+.btn:hover{
+    color: #000;
+    background-color: #FEECE0;
+}
+.lbllogin{
+    color:#E9C2B3;
+ margin-left: 20px;   
+}
+.lbl{
+    font-size: 20px;
+    color:#E9C2B3;
+    margin-left: 10px;
+
+}
+.signup{
+    border-left: 1px solid #E9C2B3;
+    padding-left: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.carousel-indicators li{
+    height: 13px;
+    width:13px;
+border-radius: 50%;
+background-color: #000;
+}
+.carousel-caption{
+    color: #000;
+    font-size: 20px;
+}
+.cart-icon{
+    margin-left: 10px;
+    color: #fff;
+}
+.titlegift{
+    margin-left: 65px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.text-muted{
+    font-size: 20px;
+}
+.fas{
+    margin-right: 5px;
+    font-size: 20px;
+} 
+.card-img{
+    height: 200px;
+}
+
+.secgiftprice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.secfeedback{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.feedback{
+   /* background-image: linear-gradient(rgb(250, 239, 232),#FEECE0,rgb(230, 206, 191),rgb(221, 199, 184),rgb(223, 195, 176));
+    */
+    background-color: #FEECE0;
+}
+.pricetwo{
+    padding-top: 20px;
+    background-color: #eee;
+}
+.asocial{
+    color:#000;
+    margin-left: 10px;
+}
+.foot{
+    background-color: #000;
+    color: #E9C2B3;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.card{
+    margin-top: 40px;
+}

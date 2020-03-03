@@ -1,0 +1,166 @@
+ 
+@media (max-width: 575.98px) { 
+.container, .container-fluid{
+    display: flex;
+    flex-direction: column;
+    padding-left:30%;
+}
+.div1{
+    border-right: none;
+ 
+}
+.login {
+    padding-left:23%;
+}
+.REGISTER{
+    padding-left:11%;
+}
+.passsmall{
+    width: 300px;
+}
+.username{
+    width:300px;
+
+}
+.passpadding{
+    margin-top: 30px;
+}
+/* .username{
+    width: 20px;
+} */
+
+
+/*.but{
+    margin-left:50%;
+}
+input{
+    width: 400px;
+    border-radius:10px;
+}
+/*
+ .line{
+    background-color: #8B929C;
+    width: 90%;
+    height: 1px;
+    display: block;
+    margin: 5px auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.but{
+    margin-left:50%;
+    font-size: 12px;
+}
+.h1{
+margin-left: 22px;
+}
+.div1{
+    border:none;
+    height: 400px;
+}
+
+.div2{
+    width: 500px;
+    height: 1000px;
+    border-top: 2px solid red;
+    padding-top: 40px;
+}
+ }*/
+
+}
+/* @media (min-width: 576px) and (max-width: 796.98px) {  */
+    
+    /* .line{
+        background-color: #8B929C;
+        width: 90%;
+        height: 1px;
+        display: block;
+        margin: 5px auto;}
+        .but{
+            margin-left:50%;
+        }
+        .container, .container-fluid{
+            display: flex;
+            flex-direction: column;
+            padding-left:30%;
+        }
+        .div1{
+            width: 500px;
+    height: 500px;
+    /* border-right: 2px solid red; */
+    /* border: none;
+    margin: auto;
+    margin-left: 150px;
+         
+        }
+        .login {
+            padding-left:23%;
+        }
+        .REGISTER{
+            padding-left:11%;
+        }
+        .div1{
+            border: none;
+            margin: auto;
+            margin-left: 150px;
+        
+        } */ 
+
+
+ /* } */
+
+ 
+@media (min-width: 576px) and (max-width: 767px) { 
+    .forget{
+        color: red;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .div1{
+        width: 300px;
+    }
+    .flexforget{
+        justify-content: start;
+       
+    }
+    .div1{
+        border: none;
+    }
+    .passsmall{
+    width: 350px;
+}
+.passpadding{
+    margin-top: 30px;
+}
+.passblock{
+    display: block;
+}
+.mycontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
+ 
+@media (min-width: 600px) and (max-width: 700px) { 
+    
+    .div1{
+        border: none;
+    }
+    /* P{color: red;} */
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+    
+@media (min-width: 1200px) {
+  
+}

@@ -1,0 +1,19 @@
+.icondiv {
+    text-align: center;
+    color: #4C71DE;
+}
+.inp1{
+    width:60%;
+}
+.mainn {
+    text-align: center;
+   
+}
+
+@media (min-width: 1280px) {
+    .mainn {
+        text-align: center;
+       
+    }
+
+}

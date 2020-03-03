@@ -1,0 +1,66 @@
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+I:\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+H:\New\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\RABAB & ASMAA\ProjectLevel1\WebApplication1-20190416T011941Z-001\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

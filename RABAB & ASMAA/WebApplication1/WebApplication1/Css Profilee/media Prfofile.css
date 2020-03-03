@@ -1,0 +1,235 @@
+/* /* /*@media (max-width: 575.98px) {
+    .icondiv{
+        margin-top: 10px;
+        margin-left:300px;
+        border-radius: 10%;
+    }
+    .btn{
+        margin-left: 340px;
+        
+    }
+    button{
+        width:100px;
+        height: 50px;
+        margin-top: 30px;
+        background-color:#4e73df;
+        color: white;
+    }
+    .in{
+        width: 45%;
+        height:40px;
+       margin-top: 20px;
+       padding: 10px;
+       margin-left: 250px;
+    }
+    
+  }*/
+  /* done*/
+  @media (min-width: 700.98px) {
+ 
+    /* .in{
+        width: 45%;
+        height:45px;
+       margin-top: 20px;
+       padding: 10px;
+       margin-left: 330px;
+    } */
+    /* .icondiv{
+        margin-left: 50px;
+    }
+         */
+    }
+    /* button{
+        width: 60%;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: -200px;
+        background-color: #4e73df;
+    } */
+    /* .icondiv{
+        margin-top: 20px;
+        margin-left:500px;
+        border-radius: 10%;
+    } */
+
+    
+ 
+    /* @media (min-width: 865.98px) {
+        .mainprofile{
+        display: flex;
+        justify-content: flex-start;
+        }
+        in{
+        width: 45%;
+        height:40px;
+       margin-top: 20px;
+       padding: 10px;
+       margin-left: 350px;
+    }.btn{
+        margin-left: 580px;
+
+        
+    }
+    .divicon{
+        margin-left: -20px;
+    } */
+    /* .icondiv{
+        margin-left: 40px;
+    } */
+    /* button{
+        width: 30%;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: -28px;
+        background-color:#4e73df; 
+    }
+    /* .icondiv{
+        margin-top: 20px;
+        margin-left:600px;
+        border-radius: 10%;
+    }
+} 
+    }
+/* 
+@media  (min-width: 600px) {
+    .mainprofile{
+       margin-left: 200px;
+
+    }
+    button{
+        width: 0%;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: -40px;
+        background-color:#4e73df;
+    }
+    
+}
+@media  (min-width: 500px) {
+    .mainprofile{
+    margin-left:-200px;
+    }
+   .button{
+       width: 50px;
+       height: 69px;
+    }
+
+}
+    
+
+@media  (max-width: 366px) {
+    .mainprofile{
+       margin-left: -100px;
+    }
+     
+}
+/* ******************************************************************************************* */
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .in{
+        width:350px;
+        height:40px;
+        margin-top: 10px;
+        padding: 10px;
+        /* margin-left: 300px;  */
+    }
+    .btn button{
+        width: 150px;
+        height: 50px;
+        margin-top: 20px;
+        background-color:#4e73df;
+        color: white;
+        font-size: small;
+    }
+    .icons{
+        font-size: xx-large;
+     }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .in{
+        width:500px;
+        height:40px;
+        margin-top: 15px;
+        padding: 10px;
+        /* margin-left: 300px;  */
+    }
+    .btn button{
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        background-color:#4e73df;
+        color: white;
+        font-size: large;
+    }
+    .icons{
+        font-size:30px;
+     }
+}
+  
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .in{
+        width:550px;
+        height:40px;
+        margin-top: 20px;
+        padding: 10px;
+        /* margin-left: 300px;  */
+    }
+    .btn button{
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        background-color:#4e73df;
+        color: white;
+        font-size: large;
+    }
+    .icons{
+        font-size: 50px;
+     }
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .in{
+        width:750px;
+        height:40px;
+        margin-top: 20px;
+        padding: 10px;
+        /* margin-left: 300px;  */
+    }
+    .btn button{
+        width: 300px;
+        height: 50px;
+        margin-top: 30px;
+        background-color:#4e73df;
+        color: white;
+        font-size: large;
+    }
+    .icons{
+        font-size: 70px;
+     }
+    
+}
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .in{
+        width:950px;
+        height:40px;
+        margin-top: 20px;
+        padding: 10px;
+        /* margin-left: 300px;  */
+    }
+    .btn button{
+        width: 500px;
+        height: 50px;
+        margin-top: 30px;
+        background-color:#4e73df;
+        color: white;
+        font-size: x-large;
+    }
+    
+    .icons{
+        font-size: 90px;
+     }
+}
+ 

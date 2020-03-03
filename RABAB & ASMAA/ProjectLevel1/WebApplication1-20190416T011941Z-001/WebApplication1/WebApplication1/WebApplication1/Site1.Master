@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="design/css/style.css" rel="stylesheet" />
+    <link href="design/css/all.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <!--left side-->
+    <form id="form1" runat="server">
+      <header class="slid" runat="server"> 
+          <asp:Label ID="Label1" class="par" runat="server" Text="System Management Mark"></asp:Label>
+                <img src="design/img/unrwa.png" class="imag" width="100px" height="100px" >
+        </header>
+    <div id="leftside">
+        <table class="auto-style1" width=100%>
+            <!--<tr>
+                <td class="td" >
+                     <asp:HyperLink Visible="false"  class="aaa" ID="hylogin" Text="login" NavigateUrl="login.aspx" runat="server" /> 
+                </td>
+            </tr>-->
+
+            <tr>
+                <td class="td">
+                    <asp:HyperLink  class="aaa" ID="HyperLink2" Text="Home" NavigateUrl="Home.aspx" runat="server" /> 
+                   
+                </td>
+            </tr>
+             <tr>
+                <td  class="td">
+                     <asp:HyperLink  class="aaa" ID="HyperLink3" Text="Marks" NavigateUrl="Marks.aspx" runat="server" /> 
+          
+                </td>
+            </tr>
+            <tr>
+                <td class="td">
+                     <asp:HyperLink  class="aaa" ID="HyperLink4" Text="Search" NavigateUrl="search.aspx" runat="server" /> 
+                </td>
+            </tr>
+
+            <tr>
+                <td class="td" >
+                     <asp:HyperLink  class="aaa" ID="HyperLink5" Text="Sort" NavigateUrl="Sort.aspx" runat="server" />                     
+               
+                </td>
+
+            </tr>
+              <tr>
+                <td  class="td">
+                 
+                     <asp:HyperLink  class="aaa" ID="HyperLink55" Text="Filter" NavigateUrl="Filter.aspx" runat="server" /> 
+
+                </td>
+            </tr>
+
+                <tr>
+                <td class="td">
+                  
+                     <asp:HyperLink  class="aaa" ID="HyperLink7" Text="Insert Student" NavigateUrl="AddStudent.aspx" runat="server" /> 
+
+                </td>
+            </tr>
+            <!--<tr>
+                <td class="td" >
+               
+                     <asp:HyperLink  class="aaa" ID="HyperLink8" Text="Insert Mark" NavigateUrl="AddMark.aspx" runat="server" /> 
+
+                </td>
+            </tr>-->
+            <tr>
+                <td class="td" >
+                      <asp:LinkButton Visible="false" ID="LinkButton1" class="aaa"  Text="Log Out" OnClick="lbulogout_Click" runat="server" /> 
+                      <br />
+                </td>
+            </tr>
+        </table>
+     
+        <br />
+        <br />
+        <br />
+       
+     
+    </div>
+
+     <!-- end left side-->
+
+     <!--right side-->
+    <div id="rightside">
+          
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+      
+    </div>
+         <!-- end right side--> 
+            </form>
+</body>
+</html>

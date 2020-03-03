@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/media.css">
+  
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oranienbaum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Age', 'Weight'],
+          [ 8,      12],
+          [ 4,      5.5],
+          [ 11,     14],
+          [ 4,      5],
+          [ 3,      3.5],
+          [ 6.5,    7]
+        ]);
+ 
+        var options = {
+          title: 'Age vs. Weight comparison',
+          legend: 'none',
+          crosshair: { trigger: 'both', orientation: 'both' },
+          trendlines: {
+            0: {
+              type: 'polynomial',
+              degree: 3,
+              visibleInLegend: true,
+            }
+          }
+        };
+ 
+        var chart = new google.visualization.ScatterChart(document.getElementById('polynomial2_div'));
+        chart.draw(data, options);
+      }
+    </script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+        google.charts.load("current", {packages:["corechart"]});
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['Work',     11],
+            ['Eat',      2],
+            ['Commute',  2],
+            ['Watch TV', 2],
+            ['Sleep',    7]
+          ]);
+  
+          var options = {
+            title: 'My Daily Activities',
+            pieHole: 0.4,
+          };
+  
+          var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+          chart.draw(data, options);
+        }
+      </script>
+    <!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var oldData = google.visualization.arrayToDataTable([
+        ['Name', 'Popularity'],
+        ['Cesar', 250],
+        ['Rachel', 4200],
+        ['Patrick', 2900],
+        ['Eric', 8200]
+      ]);
+  
+      var newData = google.visualization.arrayToDataTable([
+        ['Name', 'Popularity'],
+        ['Cesar', 370],
+        ['Rachel', 600],
+        ['Patrick', 700],
+        ['Eric', 1500]
+      ]);
+  
+      var colChartBefore = new google.visualization.ColumnChart(document.getElementById('colchart_before'));
+      var colChartAfter = new google.visualization.ColumnChart(document.getElementById('colchart_after'));
+      var colChartDiff = new google.visualization.ColumnChart(document.getElementById('colchart_diff'));
+      var barChartDiff = new google.visualization.BarChart(document.getElementById('barchart_diff'));
+  
+      var options = { legend: { position: 'top' } };
+  
+      colChartBefore.draw(oldData, options);
+      colChartAfter.draw(newData, options);
+  
+      var diffData = colChartDiff.computeDiff(oldData, newData);
+      colChartDiff.draw(diffData, options);
+      barChartDiff.draw(diffData, options);
+    }
+  </script> -->
+  
+ 
+<!-- <style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style>
+   -->
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar navtoggle">
+            <nav class="navbarside navbar-expand-lg nav-div">
+                <a  class="navbar-brand bradnone">  
+                    <div class="details">
+                      <h3  class="Admin-Names">Giffty </h3>
+                    </div>
+                  </a>
+                    <button class="navbar-toggler btntog" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon btntoggle"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto d-flex flex-column">
+                          <li class="nav-item">
+                            <span class="fas fa-laugh-wink smail1"></span>
+                            <!-- <a class="navbar-brand name" href="#">Wellcome</a> -->
+                          </li>
+                            <hr>
+
+                        <li class="nav-item active">
+                                <span class="fas fa-tachometer-alt smail"></span>
+                          <a class="nav-link name1" href="#">Dashboard</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                                <span class="fas fa-user-circle smail"></span>
+                          <a class="nav-link name1" href="#">Profile</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                                <span class="fas fa-user-edit smail"></span>
+                            <a class="nav-link name1 " href="#">Editor</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                                <span class="fas fa-list-ul smail "></span>
+                            <a class="nav-link name1" href="#">Gatogores</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                                <span class="fab fa-first-order smail"></span>
+                            <a class="nav-link name1" href="#">Orders</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                                <span class="fas fa-gift smail"></span>
+                            <a class="nav-link name1" href="#">Gifts</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                                <span class="fas fa-users smail"></span>
+                            <a class="nav-link name1" href="#">Customer</a>
+                        </li> <hr>
+                        <li class="nav-item">
+                            <span class="fas fa-sign-out-alt smail"></span>
+                            <a class="nav-link name1" href="#">Sign out</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <div class="page-div navadmintwo">
+                  <div class="div-head">
+                      <nav class="navbar justify-content-end">
+                          <a  class="navbar-brand bradnonetwo">  
+                              <div class="details">
+                                <h3  class="Admin-Names ">Giffty </h3>
+                              </div>
+                            </a>
+                      </nav>
+                  </div>
+              </div>
+    </div>
+  <section class="sectionmain">
+    <div class="container-fluied">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="boxone">
+            <div class="divprice">
+            <p class="pboxone">Earnings (monthly)</p>
+            <p class="pricebox">$12,900</p>
+          </div>
+          <div class="divicon">
+            <span class="fas fa-calendar calender"></span>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="boxone boxtwo">
+            <div class="divprice">
+            <p class="pboxone  pboxtwo">Earnings (Yearly)</p>
+            <p class="pricebox">$5900</p>
+          </div>
+          <div class="divicon">
+            <span class="fas fa-calendar calender"></span>
+          </div>
+          </div>
+        </div> 
+         <div class="col-lg-3 col-md-6 col-12">
+          <div class="boxone boxthree">
+            <div class="divprice">
+            <p class="pboxone pboxthree">Orders</p>
+            <p class="pricebox">$900</p>
+          </div>
+          <div class="divicon">
+            <span class="fas fa-comments calender"></span>
+          </div>
+          </div>
+         </div>
+         <div class="col-lg-3 col-md-6 col-12">
+          <div class="boxone boxfour">
+            <div class="divprice">
+            <p class="pboxone pboxfour">Sales</p>
+            <p class="pricebox">$11,000</p>
+          </div>
+          <div class="divicon">
+            <span class="fas fa-dollar-sign calender"></span>
+         
+          </div>
+          </div>
+         </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="card col-lg-7 col-md-11 "  >
+          <div class="card-header">
+            Earnings Overview
+          </div>
+          <div class="card-body">
+              <div class="chartline" id='polynomial2_div'  ></div>
+          </div>
+        </div>
+        <div class="card col-lg-4 col-md-11"  >
+          <div class="card-header">
+            Orders
+          </div>
+          <div class="card-body">
+            <div id="donutchart"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+<div class="container-fluied divprogress">
+  <div class="row"> 
+  <div class="card col-lg-5 col-12" >
+    <div class="card-header">
+      Sales
+    </div>
+    <div class="card-body">
+      <p class="">Flowers</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="">Valintine Day</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="">Birthday</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="">Frindship</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="">Graduation</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+  <div class="card col-lg-5 col-12">
+    <div class="card-header">
+      About Our System 
+    </div>
+    <div class="card-body aboutsystem">
+    <img src="img/aboutsystem .jpg" style="height: 200px; width: 350px;">
+    <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+    </div>
+  </div>
+  
+</div>
+<!-- <div class="row">
+  <div class="col-sm-6">
+    <div class="card ">
+        <div class="card-header">
+            Featured
+          </div>
+      <div class="card-body">
+          <div id='polynomial2_div' style='width: 900px; height: 500px;'></div>
+    </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+        <div class="card-header">
+            Featured
+          </div>
+      <div class="card-body">
+       
+      </div>
+    </div>
+  </div>
+</div> -->
+</div>
+</div>
+
+    <script src="jQuery/jQuery.js"></script>
+    <script src="jQuery/popper.js"></script>
+    <script src="jQuery/bootstrap.min.js"></script>
+    <script src="jQuery/functions.js"></script>
+</body>
+</html>
